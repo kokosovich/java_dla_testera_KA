@@ -1,12 +1,20 @@
-public class MainApp {
+public class Zmienne {
 
     public static void main(String[] args) {
 
         // liczby całkowite
-        int number = 10; //deklaracja i inicjalizacja
+        byte b;
+        short s;
+        int i;
+        long l;
+
+        int number = 100; //deklaracja i inicjalizacja
         System.out.println(number);
 
         // liczby zmiennoprzecinkowe
+        float f;
+        double d;
+
         double doubleNumber = 10.5;
         System.out.println(doubleNumber);
 

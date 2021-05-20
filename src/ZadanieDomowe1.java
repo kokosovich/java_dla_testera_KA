@@ -15,6 +15,9 @@ public class ZadanieDomowe1 {
         int sumOneTwo = numOne + numTwo;
         int sumThreeFour = numThree + numFour;
 
+        System.out.println(sumOneTwo);
+        System.out.println(sumThreeFour);
+
         boolean isSumOneTwoEven = (sumOneTwo % 2 == 0);
         boolean isSumThreeFourEven = (sumThreeFour % 2 == 0);
 

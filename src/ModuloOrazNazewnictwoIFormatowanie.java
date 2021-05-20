@@ -1,4 +1,4 @@
-public class Modulo {
+public class ModuloOrazNazewnictwoIFormatowanie {
 
     public static void main(String[] args) {
 
@@ -20,6 +20,12 @@ public class Modulo {
         System.out.println(10 % 5);
         System.out.println(10 % 3);
         System.out.println(10 % 4);
+
+        if (9 % 2 == 0) {
+            System.out.println("liczba parzysta");
+        } else {
+            System.out.println("liczba nieparzysta");
+        }
 
     }
 }

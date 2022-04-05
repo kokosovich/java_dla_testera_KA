@@ -1,4 +1,4 @@
-public class MainApp {
+public class UserMainApp {
 
     public static void main(String[] args) {
         // co to jest klasa i z czego się składa

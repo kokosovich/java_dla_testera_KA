@@ -1,3 +1,4 @@
+package Chapter1TypyDanych;
 public class Operatory {
 
     public static void main(String[] args) {

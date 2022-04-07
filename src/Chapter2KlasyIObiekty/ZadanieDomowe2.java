@@ -1,8 +1,9 @@
+package Chapter2KlasyIObiekty;
 public class ZadanieDomowe2 {
 
     public static void main(String[] args) {
 
-        Bug defect = new Bug("Doesn't work", "joe.testowy@gmail.com", 2);
+        BugOld defect = new BugOld("Doesn't work", "joe.testowy@gmail.com", 2);
         defect.showBugDetails();
         defect.showReporter();
         defect.showBugStatus();
@@ -12,7 +13,7 @@ public class ZadanieDomowe2 {
 
         System.out.println();
 
-        Bug issue = new Bug("It crashes", "joe.testowy@gmail.com", 5);
+        BugOld issue = new BugOld("It crashes", "joe.testowy@gmail.com", 5);
         issue.showBugDetails();
         issue.showReporter();
         System.out.println("Bug priority: " + issue.getBugPriority());

@@ -1,3 +1,6 @@
+package Chapter2KlasyIObiekty;
+import Model.User;
+
 public class UserMainApp {
 
     public static void main(String[] args) {

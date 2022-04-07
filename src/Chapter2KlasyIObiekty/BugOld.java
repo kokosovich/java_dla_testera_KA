@@ -1,4 +1,5 @@
-public class Bug {
+package Chapter2KlasyIObiekty;
+public class BugOld {
     // POLA OBIEKTU
     // - opis błędu
     // - adres email osoby zgłaszającej błąd
@@ -12,7 +13,7 @@ public class Bug {
 
     // KONSTRUKTOR
 
-    Bug(String description, String reportersEmail, int priority) {
+    BugOld(String description, String reportersEmail, int priority) {
         this.description = description;
         this.reportersEmail = reportersEmail;
         this.priority = priority;

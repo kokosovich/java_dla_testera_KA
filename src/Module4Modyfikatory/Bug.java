@@ -1,4 +1,4 @@
-package Chapter3Modyfikatory;
+package Module4Modyfikatory;
 
 public class Bug {
 

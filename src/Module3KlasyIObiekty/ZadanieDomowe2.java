@@ -1,4 +1,4 @@
-package Chapter2KlasyIObiekty;
+package Module3KlasyIObiekty;
 public class ZadanieDomowe2 {
 
     public static void main(String[] args) {

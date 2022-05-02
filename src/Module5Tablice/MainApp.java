@@ -1,4 +1,4 @@
-package Chapter4Tablice;
+package Module5Tablice;
 
 public class MainApp {
 

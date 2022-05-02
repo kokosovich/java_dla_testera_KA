@@ -1,4 +1,4 @@
-package Chapter2KlasyIObiekty;
+package Module3KlasyIObiekty;
 public class BugOld {
     // POLA OBIEKTU
     // - opis błędu

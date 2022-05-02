@@ -1,4 +1,4 @@
-package Chapter2KlasyIObiekty;
+package Module3KlasyIObiekty;
 import Model.User;
 
 public class UserMainApp {

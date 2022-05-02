@@ -1,4 +1,4 @@
-package Chapter3Modyfikatory;
+package Module4Modyfikatory;
 import Model.User;
 
 public class ModyfikatoryDefaultMain {

@@ -1,4 +1,4 @@
-package Chapter1TypyDanych;
+package Module2TypyDanych;
 public class Zmienne {
 
     public static void main(String[] args) {

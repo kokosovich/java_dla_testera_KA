@@ -6,11 +6,11 @@ public class InstrukcjeSterujace {
         int numOne = 10;
         int numTwo = 2;
 
-//        if (numOne < numTwo) {
-//            System.out.println("number one is less than number two");
-//        } else {
-//            System.out.println("number one is greater than number two");
-//        }
+        if (numOne < numTwo) {
+            System.out.println("number one is less than number two");
+        } else {
+            System.out.println("number one is greater than number two");
+        }
 
         String homePage = "Home";
         String loginPage = "Login";

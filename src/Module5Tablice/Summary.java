@@ -9,7 +9,7 @@ public class Summary {
 
         int[] newNumbers = {1, 2, 3, 4, 5};
         int x = 0;
-        System.out.println(newNumbers[x++] + ", " + newNumbers[x++] + ", " + newNumbers[x++];
+        System.out.println(newNumbers[x++] + ", " + newNumbers[x++] + ", " + newNumbers[x++]);
 
         String[] names = {"Bartek", "Marcin", "Michał", "Tomek"};
         System.out.println("długość tablicy imion: " + names.length);

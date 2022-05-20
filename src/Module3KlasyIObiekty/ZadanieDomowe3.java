@@ -1,5 +1,6 @@
 package Module3KlasyIObiekty;
-public class ZadanieDomowe2 {
+
+public class ZadanieDomowe3 {
 
     public static void main(String[] args) {
 

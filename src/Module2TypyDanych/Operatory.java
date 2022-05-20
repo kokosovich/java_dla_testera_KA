@@ -1,4 +1,5 @@
 package Module2TypyDanych;
+
 public class Operatory {
 
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Operatory {
         System.out.println(a / b);
         System.out.println();
 
-        //operatory porównania
+        // operatory porównania
         int numOne = 1;
         int numTwo = 2;
         System.out.println(numOne > numTwo);
@@ -26,7 +27,7 @@ public class Operatory {
         // || - lub
         System.out.println(numOne > numTwo || numOne == 1); // fałsz || prawda -> prawda
         System.out.println(numOne > numTwo || numOne != 1); // fałsz || fałsz -> fałsz
-        System.out.println(numOne < numTwo || numOne != 1); //prawda || nie jest sprawdzana -> prawda
+        System.out.println(numOne < numTwo || numOne != 1); // prawda || nie jest sprawdzana -> prawda
         System.out.println();
 
         // && - i

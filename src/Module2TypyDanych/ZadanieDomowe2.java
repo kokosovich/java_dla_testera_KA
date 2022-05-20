@@ -1,12 +1,14 @@
 package Module2TypyDanych;
-public class ZadanieDomowe1 {
+
+public class ZadanieDomowe2 {
 
     public static void main(String[] args) {
 
         // 1. 4 zmienne typu int
         // 2. Sprawdzić czy suma dwóch pierwszych jest parzysta
         // 3. Sprawdzić czy suma dwóch pozostałych jest parzysta
-        // 4. Jeżeli dwie sumy są parzyste to wyświetl informacje, że wszystkie liczby są parzyste
+        // 4. Jeżeli dwie sumy są parzyste to wyświetl informacje, że wszystkie liczby
+        // są parzyste
 
         int numOne = 7835;
         int numTwo = 9323;

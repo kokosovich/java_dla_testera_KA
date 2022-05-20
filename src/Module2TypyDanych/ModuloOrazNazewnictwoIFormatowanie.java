@@ -1,4 +1,5 @@
 package Module2TypyDanych;
+
 public class ModuloOrazNazewnictwoIFormatowanie {
 
     public static void main(String[] args) {

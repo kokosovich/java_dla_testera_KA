@@ -1,4 +1,5 @@
 package Module2TypyDanych;
+
 public class Zmienne {
 
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class Zmienne {
         int i;
         long l;
 
-        int number = 100; //deklaracja i inicjalizacja
+        int number = 100; // deklaracja i inicjalizacja
         System.out.println(number);
 
         // liczby zmiennoprzecinkowe
@@ -22,7 +23,7 @@ public class Zmienne {
         // text
         String someText = "text w javie";
         System.out.println(someText);
-//        System.out.println("text w javie");
+        // System.out.println("text w javie");
 
         // pojedynczy znak
         char someChar = 'a';

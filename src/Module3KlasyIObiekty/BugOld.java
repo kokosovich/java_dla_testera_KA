@@ -1,10 +1,12 @@
 package Module3KlasyIObiekty;
+
 public class BugOld {
     // POLA OBIEKTU
     // - opis błędu
     // - adres email osoby zgłaszającej błąd
     // - priorytet błedu (1-5)
-    // - status błędu (otwarty/zamknięty) - domyślnie, podczas tworzenia zawsze otwarty
+    // - status błędu (otwarty/zamknięty) - domyślnie, podczas tworzenia zawsze
+    // otwarty
 
     String description;
     String reportersEmail;
@@ -20,10 +22,11 @@ public class BugOld {
         this.status = false;
     }
 
-    //METODY
+    // METODY
     // - pokaż wszystkie informacje na temat błędu
     void showBugDetails() {
-        System.out.println("Bug: " + description + " - reported by: " + reportersEmail + " - priority: " + priority + " - open: " + status);
+        System.out.println("Bug: " + description + " - reported by: " + reportersEmail + " - priority: " + priority
+                + " - open: " + status);
     }
 
     // - pokaż osobę zgłaszającą błąd
@@ -33,7 +36,7 @@ public class BugOld {
 
     // - pokaż status błędu
     void showBugStatus() {
-        System.out.println("Bug status: " + " " + status);       
+        System.out.println("Bug status: " + " " + status);
     }
 
     // - zwróć priorytet błędu

@@ -1,17 +1,17 @@
 package Module5Tablice;
 
 public class Summary {
-    
+
     public static void main(String[] args) {
-        
+
         int[] numbers = new int[10];
         System.out.println("długość tablicy: " + numbers.length);
 
-        int[] newNumbers = {1, 2, 3, 4, 5};
+        int[] newNumbers = { 1, 2, 3, 4, 5 };
         int x = 0;
         System.out.println(newNumbers[x++] + ", " + newNumbers[x++] + ", " + newNumbers[x++]);
 
-        String[] names = {"Bartek", "Marcin", "Michał", "Tomek"};
+        String[] names = { "Bartek", "Marcin", "Michał", "Tomek" };
         System.out.println("długość tablicy imion: " + names.length);
 
         for (String name : names) {
@@ -25,7 +25,7 @@ public class Summary {
         int number = 10;
 
         // number = number + 1; // zwiększenie wartości o 1
-        // number += 1; // tak też można zwiększyć wartość 
+        // number += 1; // tak też można zwiększyć wartość
 
         System.out.println(number++); // post increment - najpierw wyświetla potem zwiększa
 

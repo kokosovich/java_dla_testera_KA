@@ -1,11 +1,11 @@
 package Module4Modyfikatory;
 
-public class ZadanieDomowe3 {
-    
+public class ZadanieDomowe4 {
+
     public static void main(String[] args) {
 
         // Rozwiązanie zadania domowego znajduje się w Bug.java - tutaj tylko sprawdzam
-        
+
         Bug bug = new Bug("Don't work", "joe.testowy@gmail.com", 2);
         bug.setDescription("Don't");
         bug.setReportersEmail("joe.testowy.gmail.com");

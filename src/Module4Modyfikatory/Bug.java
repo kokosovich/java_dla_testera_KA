@@ -7,7 +7,7 @@ public class Bug {
     private int priority;
     private boolean status;
 
-    public Bug (String description, String reportersEmail, int priority) {
+    public Bug(String description, String reportersEmail, int priority) {
         this.description = description;
         this.reportersEmail = reportersEmail;
         this.priority = priority;
@@ -23,17 +23,19 @@ public class Bug {
             this.description = description;
         } else {
             System.out.println("Description too short (min. 10 chars)!");
-        } 
+        }
     }
 
-/*  PROPOZYCJA PROWADZĄCEGO   
-    public void setDescription(String description) {
-        if (description.length() < 10) {
-            System.out.println("Description too short (min. 10 chars)!");
-        } else {
-            this.description = description;
-        } 
-    } */
+    /*
+     * PROPOZYCJA PROWADZĄCEGO
+     * public void setDescription(String description) {
+     * if (description.length() < 10) {
+     * System.out.println("Description too short (min. 10 chars)!");
+     * } else {
+     * this.description = description;
+     * }
+     * }
+     */
 
     public String getReportersEmail() {
         return reportersEmail;
@@ -47,14 +49,16 @@ public class Bug {
         }
     }
 
-/*  PROPOZYCJA PROWADZĄCEGO
-    public void setReportersEmail(String reportersEmail) {
-        if (!reportersEmail.contains("@")) {
-            System.out.println("Incorrect email (must contain @)!");
-        } else {
-            this.reportersEmail = reportersEmail;
-        }
-    } */
+    /*
+     * PROPOZYCJA PROWADZĄCEGO
+     * public void setReportersEmail(String reportersEmail) {
+     * if (!reportersEmail.contains("@")) {
+     * System.out.println("Incorrect email (must contain @)!");
+     * } else {
+     * this.reportersEmail = reportersEmail;
+     * }
+     * }
+     */
 
     public int getPriority() {
         return priority;
@@ -68,21 +72,22 @@ public class Bug {
         }
     }
 
-/*     
-    public void setPriority(int priority) {
-        switch (priority) {
-            case 1: // taki trick w switch jeżeli dla każdego case'a robimy to samo
-            case 2: 
-            case 3:
-            case 4:
-            case 5:
-                this.priority = priority;
-                break;
-            default:{
-                System.out.println("Priority out of scale (must be between 1 and 5)!");
-            }
-        }
-    } */
+    /*
+     * public void setPriority(int priority) {
+     * switch (priority) {
+     * case 1: // taki trick w switch jeżeli dla każdego case'a robimy to samo
+     * case 2:
+     * case 3:
+     * case 4:
+     * case 5:
+     * this.priority = priority;
+     * break;
+     * default:{
+     * System.out.println("Priority out of scale (must be between 1 and 5)!");
+     * }
+     * }
+     * }
+     */
 
     public boolean getStatus() {
         return status;
@@ -93,7 +98,8 @@ public class Bug {
     }
 
     public void showBugDetails() {
-        System.out.println("Bug: " + description + " - reported by: " + reportersEmail + " - priority: " + priority + " - open: " + status);
+        System.out.println("Bug: " + description + " - reported by: " + reportersEmail + " - priority: " + priority
+                + " - open: " + status);
     }
 
     public void showReporter() {
@@ -101,7 +107,7 @@ public class Bug {
     }
 
     public void showBugStatus() {
-        System.out.println("Bug status: " + " " + status);       
+        System.out.println("Bug status: " + " " + status);
     }
 
 }

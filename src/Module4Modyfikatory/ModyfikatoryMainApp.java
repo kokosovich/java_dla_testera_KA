@@ -1,7 +1,8 @@
 package Module4Modyfikatory;
+
 public class ModyfikatoryMainApp {
     public static void main(String[] args) {
-        
+
         int i = 10;
         String strA = "Jakis text";
 

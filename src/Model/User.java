@@ -2,6 +2,10 @@ package Model;
 
 public class User {
 
+    // pole statyczne - należy do klasy i przez klasę należy się do tego pola
+    // odwoływać
+    private static int userCounter = 0;
+
     // 1. pola obiektu - opisują z czego będzie się składał dany obiekt
 
     private String firstName; // String domyślnie null
@@ -21,6 +25,7 @@ public class User {
         this.email = email;
         this.age = age;
         this.isAdult = isUserAdult();
+        userCounter++;
     }
 
     public String getFirstName() {
@@ -105,5 +110,9 @@ public class User {
 
     public int yourAgePlus10(int userAge) {
         return userAge + 10;
+    }
+
+    public static int getUserCounter() {
+        return userCounter;
     }
 }

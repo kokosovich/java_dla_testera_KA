@@ -21,13 +21,13 @@ public class InstrukcjeSterujace {
 
         switch (page) {
             case "Home":
-                System.out.println("Przełączam się do strony Home");
+                System.out.println("Przełączam się do strony " + homePage);
                 break;
             case "Login":
-                System.out.println("Przełączam się do strony Login");
+                System.out.println("Przełączam się do strony " + loginPage);
                 break;
             case "Contact":
-                System.out.println("Przełączam się do strony Contact");
+                System.out.println("Przełączam się do strony " + contactPage);
                 break;
             default:
                 System.out.println("Nie znam takiej strony");

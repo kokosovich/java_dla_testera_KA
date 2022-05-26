@@ -10,10 +10,13 @@ public class ModuloOrazNazewnictwoIFormatowanie {
         // Zmienne
         String superUser = "Jestem super user";
         int numberTen = 10;
+        int numberNine = 9;
         boolean isTrue = true;
 
+        if (isTrue) System.out.println(superUser);
+
         // formatowanie kodu - Ctrl+Alt+L
-        if (10 > 0) {
+        if (numberTen > 0) {
             System.out.println("true");
         } else {
             System.out.println("false");
@@ -23,7 +26,7 @@ public class ModuloOrazNazewnictwoIFormatowanie {
         System.out.println(10 % 3);
         System.out.println(10 % 4);
 
-        if (9 % 2 == 0) {
+        if (numberNine % 2 == 0) {
             System.out.println("liczba parzysta");
         } else {
             System.out.println("liczba nieparzysta");

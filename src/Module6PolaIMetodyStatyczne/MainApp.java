@@ -11,6 +11,11 @@ public class MainApp {
         User u3 = new User("Bartek", "Test", "bt@test.pl", 17);
         User u4 = new User("Bartek", "Test", "bt@test.pl", 17);
 
+        System.out.println(u1.getFirstName() + " " + u1.getLastName());
+        System.out.println(u2.getFirstName() + " " + u2.getLastName());
+        System.out.println(u3.getFirstName() + " " + u3.getLastName());
+        System.out.println(u4.getFirstName() + " " + u4.getLastName());
+
         System.out.println(User.getUserCounter());
 
     }

@@ -14,15 +14,16 @@ public class MainApp {
 
         PC officeComputer = new PC("Office computer", "HP", 500, 128);
 
-        Laptop gamingLaptop = new Laptop("XGames", "HP GAMES", 500, 256);
+        Laptop gamingLaptop = new Laptop("XGames", "HP GAMES", 500, 256, 50);
 
         officeComputer.switchOn();
+        officeComputer.showComputerName();
         System.out.println(officeComputer.getState());
+
+        gamingLaptop.setBatteryLevel(0);
 
         gamingLaptop.switchOn();
         System.out.println(gamingLaptop.getState());
-
-        officeComputer.showComputerName();
 
     }
 }

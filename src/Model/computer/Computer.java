@@ -49,6 +49,7 @@ public class Computer {
     }
 
     public void switchOn() {
+        System.out.println("SUPER - ustawiam pole state na true");
         state = true;
     }
 

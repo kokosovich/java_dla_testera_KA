@@ -10,6 +10,8 @@ public class MainApp {
         // 1. IS A - jest czymś - DZIEDZICZENIE
         // 2. HAS A - posiada coś - KOMPOZYCJA
 
+        // "Hej Mamo - jesteś super!" - słówko super w dziedziczeniu
+
         PC officeComputer = new PC("Office computer", "HP", 500, 128);
 
         Laptop gamingLaptop = new Laptop("XGames", "HP GAMES", 500, 256);

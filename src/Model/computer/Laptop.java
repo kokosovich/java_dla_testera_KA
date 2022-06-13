@@ -2,6 +2,8 @@ package Model.computer;
 
 public class Laptop extends Computer {
 
+    // MATKA JEST TYLKO JEDNA - w Javie nie ma wielodziedziczenia
+
     private int batteryLevel;
 
     public Laptop(String name, String type, int hdd, int ram, int batteryLevel) {

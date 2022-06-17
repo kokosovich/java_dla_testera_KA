@@ -9,6 +9,7 @@ public class PC extends Computer {
         powerSupplied = false;
     }
 
+    // nie istnieje w klasie Computer and Laptop
     public void showComputerName() {
         System.out.println(name);
     }
@@ -26,6 +27,12 @@ public class PC extends Computer {
             System.out.println("Power supply not connected");
         }
         
+    }
+
+    @Override
+    public void switchOff() {
+        System.out.println("Wylączam PC: " + name);
+        state = false;
     }
 
 }

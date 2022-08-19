@@ -18,6 +18,10 @@ public class PC extends Computer {
         powerSupplied = powerSupply; 
     }
 
+    public int volumeUp() {
+        return volumeLevel += 1;
+    }
+
     @Override
     public void switchOn() {
         System.out.println("Checking power supply");

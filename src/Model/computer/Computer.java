@@ -1,12 +1,13 @@
 package Model.computer;
 
-public class Computer {
+abstract public class Computer {
 
     protected String name;
     protected String type;
     protected int hdd;
     protected int ram;
     protected boolean state;
+    protected int volumeLevel;
 
     public Computer(String name, String type, int hdd, int ram) {
         this.setName(name);
@@ -14,6 +15,7 @@ public class Computer {
         this.setHdd(hdd);
         this.setRam(ram);
         this.state = false;
+        volumeLevel = 0;
     }
 
     public String getName() {
@@ -62,4 +64,6 @@ public class Computer {
         return state;
     }
 
+    public abstract int volumeUp();
+    
 }

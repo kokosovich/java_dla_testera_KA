@@ -15,11 +15,21 @@ public class PC extends Computer {
     }
 
     public void setPowerSupply(boolean powerSupply) {
-        powerSupplied = powerSupply; 
+        powerSupplied = powerSupply;
     }
 
     public int volumeUp() {
         return volumeLevel += 1;
+    }
+
+    @Override
+    public int volumeDown() {
+        volumeLevel -= 1;
+        if (volumeLevel <= 0) {
+            return 0;
+        } else {
+            return volumeLevel;
+        }
     }
 
     @Override
@@ -30,7 +40,7 @@ public class PC extends Computer {
         } else {
             System.out.println("Power supply not connected");
         }
-        
+
     }
 
     @Override

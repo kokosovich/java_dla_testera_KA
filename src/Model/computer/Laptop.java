@@ -11,8 +11,18 @@ public class Laptop extends Computer {
         this.batteryLevel = batteryLevel;
     }
 
+    @Override
     public int volumeUp() {
         return volumeLevel += 5;
+    }
+
+    @Override
+    public int volumeUp(int newVolumeLevel) {
+        volumeLevel += newVolumeLevel;
+        if (volumeLevel >= 100) {
+            volumeLevel = 100;
+        }
+        return volumeLevel;
     }
 
     @Override
@@ -23,6 +33,15 @@ public class Laptop extends Computer {
         } else {
             return volumeLevel;
         }
+    }
+
+    @Override
+    public int volumeDown(int newVolumeLevel) {
+        volumeLevel -= newVolumeLevel;
+        if (volumeLevel <= 0) {
+            volumeLevel = 0;
+        }
+        return volumeLevel;
     }
 
     @Override

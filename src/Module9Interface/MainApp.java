@@ -20,5 +20,7 @@ public class MainApp {
 
         laptop.sayHelloFromVideo();
     
+        laptop.sayHello();
+
     }
 }

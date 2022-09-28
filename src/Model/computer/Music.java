@@ -17,8 +17,12 @@ public interface Music {
 
     // OD JAVA 8
     // 4. METODY DOMYŚLNE - ZWYKŁE METODY
-
+    
     default void sayHelloFromMusic() {
+        System.out.println("Hello from default music");
+    }
+
+    default void sayHello() {
         System.out.println("Hello from default music");
     }
 

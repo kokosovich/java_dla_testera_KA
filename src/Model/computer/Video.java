@@ -10,4 +10,8 @@ public interface Video {
         System.out.println("Hello from default video");
     }
 
+    default void sayHello() {
+        System.out.println("Hello from default video");
+    }
+
 }

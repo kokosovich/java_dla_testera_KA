@@ -94,4 +94,11 @@ public class Laptop extends Computer implements Music, Video {
         System.out.println("STOP VIDEO"); 
     }
 
+    // WIELODZIEDZICZENIE DZIEKI INTERFEJSOM
+    // PONIZSZA KONSTRUKCJA POZWALA WYBRAC KTOREJ METODY UZYC W PRZYPADKU KONFLIKTU
+    @Override
+    public void sayHello() {
+        Music.super.sayHello();
+    }
+
 }

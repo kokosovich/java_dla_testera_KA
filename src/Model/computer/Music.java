@@ -2,7 +2,7 @@ package Model.computer;
 
 public interface Music {
 
-    // METODY - ZACHOWANIE
+    // METODY - ZACHOWANIE (TYLKO!)
 
     // 1. NIE MOŻNA DODAWAĆ PÓL OBIEKTU
     // 2. MOŻNA TWORZYĆ TYLKO STAŁE - DOMYŚLNIE public static final
@@ -17,13 +17,9 @@ public interface Music {
 
     // OD JAVA 8
     // 4. METODY DOMYŚLNE - ZWYKŁE METODY
-    
-    default void sayHelloFromMusic() {
-        System.out.println("Hello from default music");
-    }
 
-    default void sayHello() {
-        System.out.println("Hello from default music");
+    default void sayHelloFromMusic() {
+        System.out.println("Hello from default");
     }
 
     // 5. METODY STATYCZNE

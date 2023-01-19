@@ -2,6 +2,9 @@ package Model.computer;
 
 abstract public class Computer {
 
+    // POLA - OKREŚLAJĄ STAN
+    // METODY - OKREŚLAJĄ ZACHOWANIE
+    
     protected String name;
     protected String type;
     protected int hdd;

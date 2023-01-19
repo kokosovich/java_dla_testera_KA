@@ -19,12 +19,13 @@ public interface Music {
     // 4. METODY DOMYŚLNE - ZWYKŁE METODY
 
     default void sayHelloFromMusic() {
-        System.out.println("Hello from default");
+        System.out.println("Hello from default music");
     }
 
     // 5. METODY STATYCZNE
     
     static String getName() {
+        privateMethod();
         return NAME;
     }
 

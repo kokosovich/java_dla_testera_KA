@@ -98,7 +98,7 @@ public class Laptop extends Computer implements Music, Video {
     // PONIZSZA KONSTRUKCJA POZWALA WYBRAC KTOREJ METODY UZYC W PRZYPADKU KONFLIKTU
     @Override
     public void sayHello() {
-        Music.super.sayHello();
+        Music.super.sayHelloFromMusic();
     }
 
 }

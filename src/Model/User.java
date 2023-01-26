@@ -1,5 +1,7 @@
 package Model;
 
+import javax.management.relation.RelationSupportMBean;
+
 public class User {
 
     // pole statyczne - należy do klasy i przez klasę należy się do tego pola
@@ -115,4 +117,66 @@ public class User {
     public static int getUserCounter() {
         return userCounter;
     }
+
+    // TO CZĘSTO UŻYWANA METODA 
+    // W INTELLIJ MOŻNA JĄ WYGENEROWAĆ AUTOMATYCZNIE
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", isAdult=" + isAdult +
+                '}';
+    }
+
+    // W CODIUM TO MOŻNA WYGENEROWAĆ AUTOMATYCZNIE CTRL+.
+    // TYLKO TROCHĘ GORZEJ TO DZIAŁA
+    // A MOŻE TO TYLKO KWESTIA WERSJI JAVY
+    // ZOSTAWIAM ORYGINALNY
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        User other = (User) obj;
+        if (firstName == null) {
+            if (other.firstName != null)
+                return false;
+        } else if (!firstName.equals(other.firstName))
+            return false;
+        if (lastName == null) {
+            if (other.lastName != null)
+                return false;
+        } else if (!lastName.equals(other.lastName))
+            return false;
+        if (email == null) {
+            if (other.email != null)
+                return false;
+        } else if (!email.equals(other.email))
+            return false;
+        if (age != other.age)
+            return false;
+        if (isAdult != other.isAdult)
+            return false;
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+        result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
+        result = prime * result + ((email == null) ? 0 : email.hashCode());
+        result = prime * result + age;
+        result = prime * result + (isAdult ? 1231 : 1237);
+        return result;
+    }    
+
 }

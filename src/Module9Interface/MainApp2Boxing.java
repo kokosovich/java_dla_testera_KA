@@ -1,6 +1,6 @@
 package Module9Interface;
 
-public class MainApp2 {
+public class MainApp2Boxing {
     
     public static void main(String[] args) {
         
@@ -36,8 +36,7 @@ public class MainApp2 {
         // ZAPAMIĘTAJ - CZASEM ZAMIAST TYPU PROSTEGO, 
         // NIEZBĘDNE JEST UŻYCIE TYPU REFERENCYJNEGO
         // NP. W KOLEKCJACH
-
-        List<int> numbers = new ArrayList<>();
+        // List<int> numbers = new ArrayList<>();
         
     }
 

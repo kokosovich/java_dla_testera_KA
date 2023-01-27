@@ -1,7 +1,5 @@
 package Model;
 
-import javax.management.relation.RelationSupportMBean;
-
 public class User {
 
     // pole statyczne - należy do klasy i przez klasę należy się do tego pola

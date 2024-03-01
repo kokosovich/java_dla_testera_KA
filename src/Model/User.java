@@ -116,7 +116,7 @@ public class User {
         return userCounter;
     }
 
-    // TO CZĘSTO UŻYWANA METODA 
+    // TO CZĘSTO UŻYWANA METODA
     // W INTELLIJ MOŻNA JĄ WYGENEROWAĆ AUTOMATYCZNIE
     @Override
     public String toString() {
@@ -175,6 +175,6 @@ public class User {
         result = prime * result + age;
         result = prime * result + (isAdult ? 1231 : 1237);
         return result;
-    }    
+    }
 
 }

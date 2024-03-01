@@ -18,7 +18,7 @@ public class PraktyczneStatyczneMetody {
 
         System.out.println(WeekUtils.MONDAY);
 
-        // przykładowe pole finalne 
+        // przykładowe pole finalne
         // Math.PI;
 
     }

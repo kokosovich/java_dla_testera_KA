@@ -28,7 +28,7 @@ public class PC extends Computer {
         volumeLevel += newVolumeLevel;
         if (volumeLevel >= 100) {
             return volumeLevel = 100;
-        } 
+        }
         return volumeLevel;
     }
 
@@ -49,7 +49,7 @@ public class PC extends Computer {
             volumeLevel = 0;
         }
         return volumeLevel;
-    } 
+    }
 
     @Override
     public void switchOn() {

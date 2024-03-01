@@ -13,7 +13,8 @@ public class ModuloOrazNazewnictwoIFormatowanie {
         int numberNine = 9;
         boolean isTrue = true;
 
-        if (isTrue) System.out.println(superUser);
+        if (isTrue)
+            System.out.println(superUser);
 
         // formatowanie kodu - Ctrl+Alt+L
         if (numberTen > 0) {

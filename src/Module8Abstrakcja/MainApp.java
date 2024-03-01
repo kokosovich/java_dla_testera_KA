@@ -28,7 +28,7 @@ public class MainApp {
         System.out.println("-----");
 
         // a gdyby admin chciał wyłączyć wszystkie komputery
-        
+
         Computer[] computers = { officeComputer1, officeComputer2, officeComputer3, gamingLaptop, macbook };
 
         for (Computer computer : computers) {
@@ -38,8 +38,8 @@ public class MainApp {
         officeComputer1.showComputerName();
 
         // rzutowane typów
-        
-        ((PC)officeComputer2).showComputerName();
+
+        ((PC) officeComputer2).showComputerName();
 
     }
 }

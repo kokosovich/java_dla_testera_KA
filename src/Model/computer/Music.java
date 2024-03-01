@@ -12,7 +12,9 @@ public interface Music {
     // 3. TYLKO METODY ABSTRAKCYJNE - DOMYŚLNIE public abstract
 
     void playMusic();
+
     void pauseMusic();
+
     void stopMusic();
 
     // OD JAVA 8
@@ -23,7 +25,7 @@ public interface Music {
     }
 
     // 5. METODY STATYCZNE
-    
+
     static String getName() {
         privateMethod();
         return NAME;
@@ -35,5 +37,5 @@ public interface Music {
     private static void privateMethod() {
         System.out.println("Hello from private method");
     }
-    
+
 }

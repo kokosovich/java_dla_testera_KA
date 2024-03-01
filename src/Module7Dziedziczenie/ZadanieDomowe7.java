@@ -3,9 +3,9 @@ package Module7Dziedziczenie;
 import Model.computer.PC;
 
 public class ZadanieDomowe7 {
-    
+
     public static void main(String[] args) {
-    
+
         // w klasie Computer dodać pole które sprawdzi czy jest podłączony do prądu
         // przy włączaniu komputer dodać walidację czy jest podłączony do prądu
 
@@ -19,5 +19,5 @@ public class ZadanieDomowe7 {
         System.out.println(officePC.getState());
 
     }
-    
+
 }

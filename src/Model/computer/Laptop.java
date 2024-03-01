@@ -81,7 +81,7 @@ public class Laptop extends Computer implements Music, Video {
 
     @Override
     public void playVideo() {
-        System.out.println("PLAY VIDEO");  
+        System.out.println("PLAY VIDEO");
     }
 
     @Override
@@ -91,7 +91,7 @@ public class Laptop extends Computer implements Music, Video {
 
     @Override
     public void stopVideo() {
-        System.out.println("STOP VIDEO"); 
+        System.out.println("STOP VIDEO");
     }
 
     // WIELODZIEDZICZENIE DZIEKI INTERFEJSOM

@@ -1,7 +1,7 @@
 package Model.computer;
 
 public class Hdd {
-    
+
     private String brand;
     private int size;
 
@@ -58,5 +58,5 @@ public class Hdd {
             return false;
         return true;
     }
-    
+
 }

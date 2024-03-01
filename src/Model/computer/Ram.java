@@ -1,7 +1,7 @@
 package Model.computer;
 
 public class Ram {
-    
+
     private String brand;
     private int size;
 

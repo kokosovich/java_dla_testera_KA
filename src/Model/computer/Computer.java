@@ -4,7 +4,7 @@ abstract public class Computer {
 
     // POLA - OKREŚLAJĄ STAN
     // METODY - OKREŚLAJĄ ZACHOWANIE
-    
+
     protected String name;
     protected String type;
     protected Hdd hdd; // KOMPOZYCJA - ZACHODZI TU RELACJA hasA

@@ -10,11 +10,11 @@ public class MainApp3 {
 
         // KOLEKCJA - ZBIÓR ELEMENTÓW TEGO SAMEGO TYPU -> ELEMENT1, ELEMENT2, ELEMENT3
 
-        // ArrayList
+        // ArrayList - KAŻDY ELEMENT MA SWÓJ INDEKS
         // [ELEMENT1, ELEMENT2, ELEMENT3]
         // [ 0 1 2 ]
 
-        // LinkedList
+        // LinkedList - KAŻDY ELEMENT ZNA SWOJEGO SĄSIADA
         // [ELEMENT1 <-> ELEMENT2 <-> ELEMENT3 <-> ELEMENT4]
 
         List<String> names1 = new ArrayList<>();

@@ -23,11 +23,14 @@ public class MainApp3 {
         names1.add("Bartek");
         names2.add("Bartek");
 
-        names1.get(0);
-        names2.get(0);
+        System.out.println(names1.get(0));
+        System.out.println(names2.get(0));
 
         names1.remove(0);
         names2.remove(0);
+
+        System.out.println(names1);
+        System.out.println(names2);
 
     }
 
